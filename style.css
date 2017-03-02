@@ -1,0 +1,100 @@
+@font-face{
+  font-family: 'Lato B';
+  src: url(fonts/lato-bold.ttf);
+}
+@font-face{
+  font-family: 'Lato BI';
+  src: url(fonts/lato-Bolditalic.ttf);
+}
+@font-face{
+  font-family: 'Lato M';
+  src: url(fonts/lato-medium.ttf);
+}
+@font-face{
+  font-family: 'Lato MI';
+  src: url(fonts/lato-mediumitalic.ttf);
+}
+*, html {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato M';
+}
+
+.top_block {
+  display: block;
+  background: url(img/Layer1.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  font-family: 'Lato M';
+
+}
+.navlog {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+}
+section.tex_bold > a{
+  text-decoration: none;
+  color: white;
+}
+.tex_bold {
+  
+  position: relative;
+  top: 0;
+  left: 20%;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Lato B';
+
+}
+.tex_bold, .mob_menu, .navlog {
+  width: 100%;
+
+}
+.menu_button {
+  position: relative;
+  top: 0;
+  right: 20%;
+
+}
+.curs {
+   height: 30px;
+   width: 30px;
+   color: white;
+   font-family: 'Glyphicons Halflings';
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+.wrapper {
+  padding-top: 28px;
+  /*width: 1920px;*/
+  margin: 0 auto;
+  padding-bottom: 28px;
+  min-width: 100%;
+
+}
+.main_header {
+  padding-top: 250px;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Lato B';
+  text-align: center;
+}
+
+.main_subheader {
+  font-size: 20px;
+  font-family: 'Lato MI';
+  text-align: center;
+  padding-bottom: 338px;
+}
+.carusel {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
