@@ -21,10 +21,10 @@
   font-family: 'Lato M';
 }
 
-.top_block {
+#top_block {
   display: block;
   background: url(img/Layer1.png) no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   overflow: hidden;
   color: white;
   font-family: 'Lato M';
@@ -93,8 +93,24 @@ section.tex_bold > a{
   padding-bottom: 338px;
 }
 .carusel {
+  
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.left_curs, .right_curs {
+  padding: 1.5px;
+  border: 1px solid white;
+}
+.left_curs {
+  position: relative;
+  top: 0;
+  left: 1.5%;
+}
+.right_curs {
+  position: relative;
+  top: 0;
+  right: 1.5%;
 }
